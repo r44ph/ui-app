@@ -1,0 +1,87 @@
+.hero__section-featured p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5;
+
+    letter-spacing: 3px;
+}
+
+.hero__section-featured svg {
+    position: absolute;
+    margin-left: -10px;
+}
+
+.hero__section-big_text {
+    display: flex;
+}
+
+.hero__section-big_text h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 4px;
+
+    color: #fff;
+}
+
+.hero__section-people {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__section-people_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__section-people_designer {
+    max-height: 361px;
+}
+
+.people1-desc h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    line-height: 13px;
+
+    letter-spacing: 1px;
+}
+
+.people1-desc p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10px;
+
+    color: #fff;
+    opacity: 0.5;
+    letter-spacing: 0.7px;
+
+}
+
+.hero__section-people_testimonial {
+    display: flex;
+    align-items: flex-end;
+
+    margin-left: 110px;
+}
+
+.freq {
+    height: 180px;
+    width: 380px;
+    display: flex;
+    background: #242424;
+}
+
+.freq img {
+    display: flex;
+    padding: 3.5rem 3.5rem;
+
+    width: 289px;
+    height: 67.59px;
+}
+

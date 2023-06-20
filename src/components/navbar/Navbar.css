@@ -1,0 +1,32 @@
+.ui__navbar {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin-top: 25px;
+    padding: 0 9.5rem;
+}
+
+.ui__navbar-links_profile {
+    display: flex;
+    justify-content: start;
+}
+
+.ui__navbar-links_menu-route {
+    justify-content: center;
+}
+
+.ui__navbar-links_menu-route ul {
+    display: flex;
+    list-style: none;
+    font-family: var(--font-family);
+}
+
+.ui__navbar-links_menu-route li {
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    margin: 0 2rem;
+    letter-spacing: 2px;
+}
